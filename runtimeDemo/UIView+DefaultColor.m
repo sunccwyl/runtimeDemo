@@ -16,6 +16,7 @@ static char kDefaultColorKey;
 
 - (void)setDefaultColor:(UIColor *)defaultColor{
     
+    //
     objc_setAssociatedObject(self, &kDefaultColorKey, defaultColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
 }
