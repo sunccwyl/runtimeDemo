@@ -14,6 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign) NSString *  name;
 
+@property (nonatomic,assign) NSString *  title;
+
+
+
 
 @end
 
